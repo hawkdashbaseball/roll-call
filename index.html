@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>簡易點名系統</title>
+    <title>鷹速小子點名系統</title>
     <meta name="theme-color" content="3B4252" />
     <style>
         h1 {
@@ -20,14 +20,14 @@
 
         body {
             /* 可選顏色 */
-            --nord0: #2E3440;
-            --nord1: #3B4252;
-            --nord2: #434C5E;
-            --nord3: #4C566A;
-            --nord4: #D8DEE9;
-            --nord5: #E5E9F0;
-            --nord6: #ECEFF4;
-            --nord7: #8FBCBB;
+            --nord0: #6d5b4b; /* 深棕 */
+            --nord1: #927c6a; /* 棕 */
+            --nord2: #aa917c; /* 淺棕 */
+            --nord3: #aa917c; /* 淺棕 */
+            --nord4: #dfddd4; /* 深米白 */
+            --nord5: #f4f2eb; /* 米白 */
+            --nord6: #f4f2eb; /* 米白 */
+            --nord7: #f7b530; /* 黃 */
             --nord8: #88C0D0;
             --nord9: #81A1C1;
             --nord10: #5E81AC;
@@ -220,7 +220,7 @@
 
         #status {
             margin: .5rem 0 1rem;
-            color: var(--nord13);
+            color: var(--nord5);
             font-size: 1.3rem
         }
     </style>
@@ -228,8 +228,8 @@
 
 <body>
     <main>
-        <h1>簡易點名系統</h1>
-        <h2 id="status">歡迎使用</h2>
+        <h1>鷹速小子點名系統</h1>
+        <h2 id="status">Hawk Dash Baseball</h2>
         <nav>
             <button onclick="searchA()">查詢紀錄</button><button onclick="callA()">點名</button><button
                 onclick="addA()">新增學生</button>
@@ -258,7 +258,7 @@
                 <div class="search"><input type="text"><button>新增</button></div>
             </div>
         </section>
-        <footer><a href="edit-mr.github.io/">毛哥EM</a>製作 | <a href="https://em-tec.github.io/post/rol-call">教學</a></footer>
+        <footer>鷹速小子<a href="https://www.instagram.com/hawkdash_baseball">IG</a> | <a href="https://www.facebook.com/hawkdash.baseball">FB粉專</a></footer>
     </main>
     <script>
         //部屬連結放這裡
